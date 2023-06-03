@@ -8,17 +8,17 @@ footer {
   
   /* Styles for the sitemap section */
   .sitemap {
-    grid-column: 1 / span 1;
+    flex-basis: 33.33%;
   }
   
   /* Styles for the back-to-top section */
   .back-to-top {
-    grid-column: 2 / span 1;
+    flex-basis: 33.33%;
   }
   
   /* Styles for the contact-info section */
   .contact-info {
-    grid-column: 3 / span 1;
+    flex-basis: 33.33%;
   }
   
   /* Additional styles for the footer */
