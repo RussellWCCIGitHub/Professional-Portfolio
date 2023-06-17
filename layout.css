@@ -1,42 +1,21 @@
-/* Grid styles for the footer */
-footer {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-    padding: 20px;
-  }
-  
-  /* Styles for the sitemap section */
-  .sitemap {
-    flex-basis: 33.33%;
-  }
-  
-  /* Styles for the back-to-top section */
-  .back-to-top {
-    flex-basis: 33.33%;
-  }
-  
-  /* Styles for the contact-info section */
-  .contact-info {
-    flex-basis: 33.33%;
-  }
-  
-  /* Additional styles for the footer */
-  footer h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  
-  footer ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  footer ul li {
-    margin-bottom: 5px;
-  }
-  
-  
+.containerone {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  /* flex-wrap: wrap; */
+  /* align-content:center; */
+}
 
-  
+.containertwo {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* align-content:center; */
+}
+.sitemap {
+  display: flex;
+  margin: 100;
+justify-content:space-around;
+}
+
